@@ -1,0 +1,163 @@
+.header{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(211, 201, 201);
+    border-bottom-style: solid;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.ham-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.mid-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex:1;
+    height: 36px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(186, 179, 179);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.s-b{
+    width: 65px;
+    background-color: rgb(241, 237, 237);
+    border-width: 1px;
+    height: 39px;
+    border-color: rgb(186, 179, 179);
+    border-style: solid;
+    margin-left: -1px;
+
+
+    position: relative;
+}
+.common,
+.noti-class{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+.s-b .tt,
+.vs-b .tt,
+.common .tt,
+.noti-class .tt{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    transition: 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.s-b:hover .tt,
+.vs-b:hover .tt,
+.common:hover .tt,
+.noti-class:hover .tt{
+    opacity: 1;
+}
+.search{
+    height: 25px;
+    
+}
+.vs-b{
+    height: 38px;
+    width: 40px;
+    border:none;
+    background-color: rgb(220, 218, 218);
+    border-radius: 20px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voice-search-icon{
+    height: 25px;
+}
+.right-section{
+    flex-shrink: 0;
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.upload{
+    height: 25px;
+}
+.youtube-app{
+    height: 25px;
+}
+.noti{
+    height: 25px;
+}
+.noti-class{
+    position: relative;
+}
+.noti-val{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(183, 4, 4);
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: aliceblue;
+}
+.mc{
+    height: 28px;
+    margin-right: 20px;
+}
+.youtube-img{
+    position: relative;
+}
+.india{
+    font-style: Roboto;
+    position: absolute;
+    color: rgb(135, 130, 130) ;
+    font-size: 10px;
+    top: -5px;
+    right: -15px;
+    background-color: white;
+}
